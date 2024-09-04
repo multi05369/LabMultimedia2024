@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 34px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+img{
+    border-radius: 8px;
+}
+
+.red-circle {
+    fill: none;
+    stroke: red;
+    stroke-width: 2;
+}
+
+.line {
+    stroke: #333333;
+    stroke-width: 24;
+    stroke-linecap: round;
+}
+
+#ray{
+    stroke: black;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+
+#windmill_head {
+    animation: 4s linear infinite rotate;
+    fill: red;
+    z-index: 99;
+}
+
+@keyframes rotate{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
